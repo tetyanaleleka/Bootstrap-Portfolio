@@ -66,6 +66,10 @@ footer {
   background-color:#04acbf50;
 }
 
+.form-label {
+  margin-top: 20px;
+}
+
 /* Typography CSS */
 
 h1 {
