@@ -19,17 +19,42 @@ footer {
   margin-top: 50px;
 }
 .cardContainer {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.card-head {
+  margin: 20px 0 40px 0;
+  position: relative;
+  text-align: center;
+}
+
+.card-body {
+  margin: 20px 0;
 }
 .card {
   margin: 0 auto;
 }
 .signUp form {
-  margin: 35px auto;
-  background-color: #f2f2f2;
+  margin: 70px auto;
+  background-color: #f5f5f5;
   padding: 25px;
   border-radius: 7px;
   width: 50%;
+}
+
+.subscription {
+  margin: 0 0 20px 0;
+}
+
+.hero-box {
+  background-color: rgba(255, 255, 255, 0.313);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
 
 .hero-text {
@@ -37,6 +62,52 @@ footer {
   text-align: center;
 }
 
+.p-3 {
+  background-color:#04acbf50;
+}
+
+/* Typography CSS */
+
+h1 {
+  color: #04ADBF;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 10px 0px;
+  color: #04ADBF;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 20px;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+h5 {
+  font-weight: 700;
+}
+
 .hero-p {
   font-size: 20px;
+  padding: 10px;
 }
+
+.active {
+  font-weight: 700;
+  color: #04ADBF;
+}
+
+.btn {
+  background-color:  #04ADBF;
+  color: white;
+  
+}
+
+.btn:hover {background-color: #007b89}
