@@ -1,5 +1,5 @@
 .bg-img {
-  background: url(/images/hero_image.jpg); 
+  background:url(../images/hero_image.jpg); 
   min-height: 800px;
   background-position: center;
   background-repeat: no-repeat;
